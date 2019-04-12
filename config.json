@@ -1,0 +1,7 @@
+{
+  "repos": [
+    "filecoin-project/go-filecoin",
+    "filecoin-project/rust-fil-proofs",
+    "filecoin-project/specs"
+  ]
+}

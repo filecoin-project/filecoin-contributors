@@ -1,0 +1,23 @@
+{
+  "name": "filecoin-contributors",
+  "version": "0.0.0",
+  "description": "Script to generate a list of the contributors to Filecoin since a given date",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Alan Shaw",
+  "license": "(Apache-2.0 OR MIT)",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "inquirer": "^6.2.2",
+    "inquirer-datepicker-prompt": "^0.4.2",
+    "moment": "^2.24.0",
+    "name-your-contributors": "^3.4.0",
+    "ora": "^3.4.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
