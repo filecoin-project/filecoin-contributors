@@ -22,5 +22,13 @@
   },
   "devDependencies": {
     "standard": "^12.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filecoin-project/filecoin-contributors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/filecoin-project/filecoin-contributors/issues"
+  },
+  "homepage": "https://github.com/filecoin-project/filecoin-contributors#readme"
 }
