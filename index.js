@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const ora = require('ora')
 const log = require('debug')('filecoin-contributors')
 const Chalk = require('chalk')
@@ -90,6 +92,7 @@ async function main ({ argv, env }) {
     }
 
     console.log(getList(contributions))
+    process.exit()
   } catch (err) {
     log(err)
     spinner.fail(err.message || err.statusMessage)

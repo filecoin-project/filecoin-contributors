@@ -33,7 +33,7 @@ module.exports = repoContributions => {
     return ''
   }
 
-  const sortedPeople = Object.values(people).sort((a, b) => (a.name || a.login).toLowerCase().localeCompare((b.name || b.login).toLowerCase()))
+  const sortedPeople = Object.values(people).sort((a, b) => a.login.toLowerCase().localeCompare(b.login.toLowerCase()))
 
   return sortedPeople
     .filter(p => p.name !== 'greenkeeper' && p.login !== 'greenkeeper')
