@@ -2,6 +2,8 @@
 
 > Script to generate a list of the contributors to Filecoin since a given date
 
+![Screenshot](https://raw.githubusercontent.com/filecoin-project/filecoin-contributors/master/screenshot.png)
+
 ## Install
 
 Install dependences:
