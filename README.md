@@ -16,7 +16,7 @@ Then:
 npm install -g filecoin-contributors
 ```
 
-Install from source:
+Or, install from source:
 
 ```sh
 # Clone the repo
@@ -35,11 +35,13 @@ Simply run the tool by typing the following at the command line:
 filecoin-contributors
 ```
 
-If you've installed from source:
+Or, if you've installed from source:
 
 ```sh
 npm start
 ```
+
+Note: It may take a long time! Please be patient!
 
 ## License
 
