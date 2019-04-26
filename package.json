@@ -1,6 +1,6 @@
 {
   "name": "filecoin-contributors",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Script to generate a list of the contributors to Filecoin since a given date",
   "main": "index.js",
   "bin": {
