@@ -40,6 +40,9 @@ Or, if you've installed from source:
 ```sh
 npm start
 ```
+Then follow the prompts. You will need a [Github personal access token](https://github.com/settings/tokens/) with the following scopes:
+* read_org
+* user_email
 
 Note: It may take a long time! Please be patient!
 
